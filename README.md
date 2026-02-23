@@ -211,12 +211,3 @@ Sugestão prática: **MIT** (bem simples e permissiva) para o seu repositório.
 
 ---
 
-## Nome do repositório (sugestão)
-
-- **`conversor-mini`** (o nome que você já está usando)  
-  ou  
-- `word2pdf-cli` (mais direto e “autoexplicativo”)
-
-## Descrição curta (para o GitHub)
-
-> CLI em C++17 que converte DOCX/ODT/TXT para PDF usando LibreOffice headless, com perfil isolado por execução para evitar conflitos.
