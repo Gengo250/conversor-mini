@@ -194,14 +194,4 @@ O escape atual lida com espaços e aspas. Em geral funciona bem em Linux moderno
 
 ---
 
-## Ideias de melhorias (se você quiser evoluir o projeto)
-
-- Aceitar **pasta inteira** como entrada e converter tudo automaticamente
-- Adicionar flag `--verbose` para não esconder logs
-- Suporte a escolher o formato de saída (ex.: `pdf`, `html`, etc.)
-- Implementar `fork/exec` para eliminar dependência de shell
-
-
-
----
 
