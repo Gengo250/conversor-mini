@@ -163,15 +163,6 @@ Pontos importantes do código:
 
 ---
 
-## Limitações e observações
-
-- **Segurança**: o programa usa `std::system()` e uma função de escape bem simples (`shellEscape`).
-  - Pra uso pessoal/local é ok, mas não é ideal para cenários “multiusuário” ou recebendo caminhos de entrada não confiáveis.
-  - Se um dia você quiser deixar isso “blindado”, o próximo passo é trocar por `fork/exec` passando argv (sem shell).
-- **Compatibilidade**: pensado para Linux. No Windows/macOS dá pra adaptar, mas exige ajustes.
-- **Entrada**: o LibreOffice converte muitos formatos, mas o resultado pode variar conforme fonte/compatibilidade do documento.
-
----
 
 ## Troubleshooting (quando dá ruim 😅)
 
