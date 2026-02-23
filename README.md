@@ -201,13 +201,7 @@ O escape atual lida com espaços e aspas. Em geral funciona bem em Linux moderno
 - Suporte a escolher o formato de saída (ex.: `pdf`, `html`, etc.)
 - Implementar `fork/exec` para eliminar dependência de shell
 
----
 
-## Licença
-
-Sugestão prática: **MIT** (bem simples e permissiva) para o seu repositório.
-
-> Nota: este projeto é um “wrapper” local. A conversão real é feita pelo LibreOffice, que tem sua própria licença e dependências.
 
 ---
 
